@@ -52,7 +52,19 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 
         npm start
 
+[Test deployed on Heroku as well](https://henrykam-ecommerce-back-end.herokuapp.com/api/)
 
+1. Route for Products (GET, POST, PUT, DELETE)
+
+        https://henrykam-ecommerce-back-end.herokuapp.com/api/products
+2. Route for Categories (GET, POST, PUT, DELETE)
+
+        https://henrykam-ecommerce-back-end.herokuapp.com/api/categories
+
+3. Route for Tags (GET, POST, PUT, DELETE)
+
+        https://henrykam-ecommerce-back-end.herokuapp.com/api/tags
+<br>
 
 ## Built With
 
