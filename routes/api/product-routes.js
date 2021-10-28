@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
+const { sequelize } = require('../../models/Product');
 
 // The `/api/products` endpoint
 
@@ -19,13 +20,13 @@ router.get('/', async (req, res) => {
         },
         {
           model: Tag,
-          attributes: ["tag_name"] //why doesnt this line work
-        }
+          attributes: ["tag_name"]
+        },
       ],
     });
 
     if (!productData) {
-      res.status(404).json({ message: 'No product found with that id!' });
+      res.status(404).json({ message: 'No product found!' });
       return;
     }
     res.status(200).json(productData);
@@ -46,7 +47,7 @@ router.get('/:id', async (req, res) => {
         },
         {
           model: Tag,
-          attributes: ["tag_name"] //why doesnt this line work
+          attributes: ["tag_name"],
         }
       ],
     })
