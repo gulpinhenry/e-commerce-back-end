@@ -18,7 +18,7 @@
 
 ## Description
 
-Internet retail, also known as e-commerce, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. This program is the back end for an e-commerce site, by configuring a working Express.js API to use Sequelize to interact with a MySQL database using bcrypt.js, dotenv, Express.js, MySQL, Node.js, Nodemon, and Sequelize. This project served as an exploration towards the back end and ORM.
+Internet retail, also known as e-commerce, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. This program is the back end for an e-commerce site, by configuring a working Express.js API to use Sequelize to interact with a MySQL database using dotenv, Express.js, MySQL, Node.js, Nodemon, and Sequelize. This project served as an exploration towards the back end and ORM.
 
  <br />
 
@@ -57,10 +57,13 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 ## Built With
 
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Node.js](https://nodejs.org/en/)
+  * [dotenv](https://www.npmjs.com/package/dotenv)
+  * [Express.js](https://expressjs.com/)
+  * [MySQL2](https://www.npmjs.com/package/mysql2)
+  * [Node.js](https://nodejs.org/en/)
+  * [nodemon](https://nodemon.io/)
+  * [Sequelize](https://sequelize.org/)
 * [MySQL](https://www.mysql.com)
-* [Inquirer.js](https://www.npmjs.com/package/inquirer)
-* [console.table](https://www.npmjs.com/package/console.table)
 
 
 
@@ -69,6 +72,8 @@ Internet retail, also known as e-commerce, is the largest sector of the electron
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Git Bash](https://git-scm.com/downloads)
 * [GitHub](https://github.com/)
+* [Heroku](https://www.heroku.com/)
+* [MySQL Workbench](https://www.mysql.com/products/workbench/)
 
 ## Contributing
 
